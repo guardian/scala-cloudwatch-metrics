@@ -6,7 +6,8 @@ A wrapper for sending Cloudwatch metrics in Scala
 
 Extracted from the [Grid Project](https://github.com/guardian/grid)
 
-## Usage
+Usage
+-------
 
 ```scala
 // Set up your metrics
@@ -42,4 +43,14 @@ class AppMetricsExamples(appMetrics: AppMetrics) {
     appMetrics.fooTimer.runRecordOne(latency, dimensions)
   } 
 }
+
 ```
+License
+-------
+
+scala-cloudwatch-metrics is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) (the "License"); 
+you may not use this software except in compliance with the License.
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific 
+language governing permissions and limitations under the License.
