@@ -1,10 +1,22 @@
-# scala-cloudwatch-metrics
+scala-cloudwatch-metrics
+=======
 
-**Work in progress**
+A wrapper for sending Cloudwatch metrics in Scala. The intention is to make it easier to send CloudWatch metrics and allow batching of metrics for sending to cloudwatch to reduce cost and latency
 
-A wrapper for sending Cloudwatch metrics in Scala
+This work is extracted from the [Grid Project](https://github.com/guardian/grid).
 
-Extracted from the [Grid Project](https://github.com/guardian/grid)
+Installation
+------------
+
+**This library is currently a work in progress and may not currently be available.**
+
+```scala
+libraryDependencies ++= Seq(
+  "com.gu" %% "scala-cloudwatch-metrics" % "0.0.1"
+)
+```
+
+scala-cloudwatch-metrics is published for Scala 2.11
 
 Usage
 -------
