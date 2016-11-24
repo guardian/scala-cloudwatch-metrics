@@ -5,6 +5,9 @@ resolvers += Resolver.url(
 
 addSbtPlugin("me.lessis" % "bintray-sbt" % "0.1.2")
 
+addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "1.1")
+
+addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.0.0") 
 
 resolvers += "jgit-repo" at "http://download.eclipse.org/jgit/maven"
 
