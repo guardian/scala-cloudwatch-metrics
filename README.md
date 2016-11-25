@@ -8,11 +8,9 @@ This work is extracted from the [Grid Project](https://github.com/guardian/grid)
 Installation
 ------------
 
-**This library is currently a work in progress and may not currently be available.**
-
 ```scala
 libraryDependencies ++= Seq(
-  "com.gu" %% "scala-cloudwatch-metrics" % "0.0.1"
+  "com.gu" % "scala-cloudwatch-metrics_2.11" % "1.0-2f4ebc7e4a85551e011566e40393d5b1b2fbf504"
 )
 ```
 
