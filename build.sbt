@@ -20,6 +20,17 @@ scmInfo := Some(ScmInfo(
 ))
 
 pomExtra := {
+  <scm>
+    <connection>scm:git:https://github.com/guardian/scala-cloudwatch-metrics</connection>
+    <developerConnection>scm:git:https://github.com/guardian/scala-cloudwatch-metrics</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/guardian/scala-cloudwatch-metrics</url>
+  </scm>
+  <scm>
+    <connection>scm:git:github.com/(your repository URL)</connection>
+    <developerConnection>scm:git:git@github.com:(your repository URL)</developerConnection>
+    <url>github.com/(your repository url)</url>
+  </scm>
   <developers>
     <developer>
       <id>kenoir</id>
