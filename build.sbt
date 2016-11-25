@@ -13,6 +13,12 @@ crossScalaVersions := Seq("2.10.4", "2.11.4")
 homepage := Some(url("https://github.com/guardian/scala-cloudwatch-metrics"))
 licenses := Seq("Apache V2" -> url("http://www.apache.org/licenses/LICENSE-2.0.html"))
 
+publishMavenStyle := true
+scmInfo := Some(ScmInfo(
+  url("https://github.com/guardian/scala-cloudwatch-metrics"),
+  "scm:git:git@github.com:guardian/scala-cloudwatch-metrics.git"
+))
+
 pomExtra := {
   <developers>
     <developer>
