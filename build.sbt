@@ -9,7 +9,7 @@ javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
 scalaVersion := "2.11.4"
 
 crossScalaVersions := Seq("2.10.4", "2.11.4")
-
+resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 homepage := Some(url("https://github.com/guardian/scala-cloudwatch-metrics"))
 licenses := Seq("Apache V2" -> url("http://www.apache.org/licenses/LICENSE-2.0.html"))
 
