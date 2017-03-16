@@ -37,7 +37,7 @@ abstract class CloudWatchMetrics(namespace: String, credentials: AWSCredentials)
     * Will report more often than this, if the number of enqueued data points
     * exceeds `maxChunkSize`.
     */
-  val maxAge: Duration = 1.minute
+  val maxAge: Duration = 5 seconds
 
   import scalaz.{\/, -\/, \/-}
 
