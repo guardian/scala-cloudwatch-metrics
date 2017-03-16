@@ -48,6 +48,7 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+.idea
 
 # ENSIME specific
 .ensime_cache/

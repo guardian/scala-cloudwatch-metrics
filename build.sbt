@@ -48,4 +48,4 @@ libraryDependencies ++= Seq(
   "org.slf4j" % "slf4j-simple" % "1.7.5"
 )
 
-com.typesafe.sbt.SbtGit.versionWithGit
+publishTo := Some("Artifactory Realm" at "https://itvrepos.artifactoryonline.com/itvrepos/cps-libs")
