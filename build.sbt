@@ -6,9 +6,7 @@ licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 
 javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
 
-scalaVersion := "2.11.4"
-
-crossScalaVersions := Seq("2.10.4", "2.11.4")
+scalaVersion := "2.12.1"
 
 homepage := Some(url("https://github.com/guardian/scala-cloudwatch-metrics"))
 licenses := Seq("Apache V2" -> url("http://www.apache.org/licenses/LICENSE-2.0.html"))
@@ -43,11 +41,11 @@ pomExtra := {
 val awsLibVersion = "1.10.69"
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "2.2.1" % "test",
+  "org.scalatest" %% "scalatest" % "3.0.0" % "test",
   "com.amazonaws" % "aws-java-sdk-cloudwatch" % awsLibVersion,
-  "org.scalaz.stream" %% "scalaz-stream" % "0.6",
+  "org.scalaz.stream" %% "scalaz-stream" % "0.8.6a",
   "org.slf4j" % "slf4j-api" % "1.7.5",
   "org.slf4j" % "slf4j-simple" % "1.7.5"
 )
 
-com.typesafe.sbt.SbtGit.versionWithGit
+publishTo := Some("Artifactory Realm" at "https://itvrepos.artifactoryonline.com/itvrepos/cps-libs")

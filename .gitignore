@@ -44,10 +44,14 @@ lib_managed/
 src_managed/
 project/boot/
 project/plugins/project/
+.sbt-local/
+project/project/credentials.sbt
+sbt
 
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+.idea
 
 # ENSIME specific
 .ensime_cache/

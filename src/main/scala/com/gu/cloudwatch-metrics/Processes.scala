@@ -7,6 +7,7 @@ import scalaz.stream.{Process, process1, Process1, Wye}
 import scalaz.stream.Process._
 import scalaz.stream.ReceiveY.{ReceiveL, ReceiveR, HaltL, HaltR}
 import scalaz.stream.DefaultScheduler
+import scalaz.stream.time._
 
 object Processes {
 
